@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Theme variables */
+:root{
+  --bg: #ffffff;
+  --text: #0f172a;
+  --muted: #6b7280;
+  --card: #f8fafc;
+  --accent: #0f6fff;
+}
+
+.dark {
+  --bg: #071027;
+  --text: #e6eef8;
+  --muted: #94a3b8;
+  --card: #072033;
+  --accent: #6fb7ff;
+}
+
+html,body,#root {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+}
+
+a { color: var(--accent); }
+.text-muted { color: var(--muted); }
+.bg-card { background: var(--card); }
