@@ -4,7 +4,7 @@ export default function Intro() {
   return (
     <section className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
 
-      {/* TEXT */}
+      
       <motion.div
         initial={{ opacity: 0, x: -40 }}
         whileInView={{ opacity: 1, x: 0 }}
@@ -32,7 +32,7 @@ export default function Intro() {
         </p>
       </motion.div>
 
-      {/* IMAGE */}
+      {/* Dp */}
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         whileInView={{ opacity: 1, scale: 1 }}
@@ -41,7 +41,7 @@ export default function Intro() {
         className="flex justify-center"
       >
         <img
-          src="images/dp.jpeg"
+          src="/dp.jpeg"
           alt="My profile"
           className="w-60 h-60 object-cover rounded-full
                      border-4 border-[var(--accent)]
