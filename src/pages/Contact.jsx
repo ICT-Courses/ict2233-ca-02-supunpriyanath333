@@ -8,11 +8,11 @@ import {
 
 export default function Contact() {
   const contactLinks = [
-    { icon: <Linkedin />, label: "LinkedIn", href: "https://www.linkedin.com/in/yourprofile" },
-    { icon: <Facebook />, label: "Facebook", href: "https://www.facebook.com/yourprofile" },
-    { icon: <Github />, label: "GitHub", href: "https://github.com/yourusername" },
-    { icon: <Mail />, label: "Email", href: "mailto:youremail@example.com" },
-    { icon: <Phone />, label: "Mobile", href: "tel:+1234567890" },
+    { icon: <Linkedin />, label: "LinkedIn", href: "https://www.linkedin.com/in/supun-priyanath-04633825a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
+    { icon: <Facebook />, label: "Facebook", href: "https://www.facebook.com/" },
+    { icon: <Github />, label: "GitHub", href: "https://github.com/supunpriyanath333" },
+    { icon: <Mail />, label: "Email", href: "mailto:supunpriyanath333@gmail.com" },
+    { icon: <Phone />, label: "Mobile", href: "tel:+94786350859" },
   ];
 
   return (

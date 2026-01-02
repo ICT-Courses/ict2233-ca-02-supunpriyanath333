@@ -8,23 +8,23 @@ export default function Projects() {
     {
       title: "Cum & Eat Food Delivery",
       description:
-        "A full-stack food delivery platform where users can browse restaurants, place orders, and track deliveries in real-time.",
+        "A full-stack food delivery platform where users can browse from a local restaurants, place orders, and track deliveries in real-time.",
       tech: "React • Tailwind • Node.js • MongoDB",
-      github: "https://github.com/yourusername/cum-eat-food-delivery",
+      github: "https://github.com/supunpriyanath333/CUM-EAT-Food-Delivery-App",
     },
     {
       title: "UniSpace",
       description:
-        "A collaborative platform for university students to share resources, manage study groups, and organize events.",
+        "A collaborative platform for university students to Book Leture halls, share resources, manage study times, and organize events.",
       tech: "React • Tailwind • Firebase • REST API",
-      github: "https://github.com/yourusername/unispace",
+      github: "https://github.com/supunpriyanath333/UniSpace-Booking-App",
     },
     {
       title: "Japura Eats",
       description:
-        "A modern restaurant ordering app focusing on local cuisines, featuring menus, online orders, and delivery tracking.",
+        "A modern food pre ordering web focusing on USJ canteens, featuring menus, online orders and tracking.",
       tech: "React • Tailwind • Express • PostgreSQL",
-      github: "https://github.com/yourusername/japura-eats",
+      github: "https://github.com/ICT-Courses/ict-2233-final-project-submission-group-11",
     },
   ];
 

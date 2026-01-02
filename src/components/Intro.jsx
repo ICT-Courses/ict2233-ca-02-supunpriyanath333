@@ -16,19 +16,19 @@ export default function Intro() {
         </h2>
 
         <p className="leading-relaxed mb-4 text-[var(--text-sec)]">
-          I am an undergraduate student passionate about building modern,
-          responsive, and interactive web applications.
+         I am an undergraduate student at the University of Sri Jayewardenepura who passionate about software engineering and 
+         UI/UX design, with a strong interest in creating modern, responsive and user-friendly web applications.
         </p>
 
         <p className="leading-relaxed mb-4 text-[var(--text-sec)]">
-          I enjoy working with <span className="text-[var(--accent)]">React</span>,
-          <span className="text-[var(--accent)]"> Tailwind CSS</span>, and modern
-          JavaScript to create clean user experiences.
+          I enjoy <span className="text-[var(--accent)]"> designing and developing interfaces </span>
+           using <span className="text-[var(--accent)]"> React, JavaScript, and CSS, modern
+          JavaScript and translating Figma designs into interactive web experiences</span>.
         </p>
 
         <p className="leading-relaxed text-[var(--text-sec)]">
-          Currently, I am focusing on improving my skills in full-stack
-          development and open-source contributions.
+         Currently, I am focused on enhancing my full-stack development skills and contributing 
+         to open-source projects, while exploring innovative ways to improve user experience and interface design.
         </p>
       </motion.div>
 
