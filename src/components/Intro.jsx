@@ -41,8 +41,8 @@ export default function Intro() {
         className="flex justify-center"
       >
         <img
-          src="/dp.jpeg"
-          alt="My profile"
+          src="dp.jpeg"
+  alt="display photo"
           className="w-60 h-60 object-cover rounded-full
                      border-4 border-[var(--accent)]
                      shadow-lg shadow-[var(--accent)]/30"

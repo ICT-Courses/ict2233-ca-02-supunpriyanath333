@@ -7,7 +7,7 @@ import "./index.css";
 import "./styles/globals.scss";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/ict2233-ca-02-supunpriyanath333/">
     <App />
   </BrowserRouter>
 );
