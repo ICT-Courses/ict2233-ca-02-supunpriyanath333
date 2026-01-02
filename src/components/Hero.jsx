@@ -83,10 +83,10 @@ export default function Hero() {
         className="flex justify-center"
       >
         <img
-          src="/Home_image.png"
-          alt="Developer Illustration"
-          className="w-[320px] md:w-[420px]"
-        />
+  src="Home_image.png"
+  alt="Developer Illustration"
+  className="w-[320px] md:w-[420px]"
+/>
       </motion.div>
     </section>
   );
