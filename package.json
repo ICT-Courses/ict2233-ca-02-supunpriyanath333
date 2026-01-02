@@ -4,12 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://supunpriyanath333.github.io/ict2233-ca-02-supunpriyanath333",
- "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-},
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "framer-motion": "^12.23.26",
     "lucide-react": "^0.562.0",
