@@ -24,7 +24,7 @@ export default function Hero() {
     visible: { opacity: 1, y: 0 },
   };
 
-  // Variants for container (stagger letters)
+  // Variants for container
   const container = {
     hidden: {},
     visible: {
@@ -34,7 +34,6 @@ export default function Hero() {
 
   return (
     <section className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
-      {/* LEFT TEXT */}
       <motion.div
         initial={{ opacity: 0, x: -50 }}
         animate={{ opacity: 1, x: 0 }}
@@ -54,7 +53,7 @@ export default function Hero() {
           I'M <span style={{ color: "var(--accent)" }}>Supun Priyanath</span>
         </h1>
 
-        {/* Animated Job Title */}
+        {/* Animations*/}
         <div className="text-xl font-mono leading-relaxed mb-4 h-8 overflow-hidden flex">
           <AnimatePresence mode="wait">
             <motion.p
@@ -76,7 +75,7 @@ export default function Hero() {
         </div>
       </motion.div>
 
-      {/* RIGHT ILLUSTRATION */}
+      {/* Home picture */}
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}

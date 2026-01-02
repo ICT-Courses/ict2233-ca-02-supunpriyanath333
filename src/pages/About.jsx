@@ -16,7 +16,7 @@ export default function About() {
   return (
     <section className="max-w-7xl mx-auto px-8 py-20 space-y-24">
 
-      {/* ================= KNOW WHO I'M ================= */}
+      {/* KNOW WHO I AM*/}
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -39,7 +39,7 @@ export default function About() {
         </p>
       </motion.div>
 
-      {/*PROFESSIONAL SKILLSET*/}
+      {/*PROFESSIONAL SKILLS*/}
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
@@ -76,7 +76,7 @@ export default function About() {
         </div>
       </motion.div>
 
-      {/* ================= TOOLS I USE ================= */}
+      {/* TOOLS */}
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

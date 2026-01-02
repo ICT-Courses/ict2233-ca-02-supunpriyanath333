@@ -2,9 +2,9 @@ import { Link, useLocation } from "react-router-dom";
 import ThemeToggle from "./ThemeToggle";
 
 export default function Navbar() {
-  const location = useLocation(); // Get current path
+  const location = useLocation(); 
 
-  // Helper to check if link is active
+  
   const isActive = (path) => location.pathname === path;
 
   const navLinks = [
@@ -23,7 +23,7 @@ export default function Navbar() {
       }}
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center px-8 py-4">
-        {/* Logo / Name */}
+        
         <h1
           className="text-2xl font-bold"
           style={{ color: "var(--accent)" }}
@@ -31,7 +31,7 @@ export default function Navbar() {
           Supun Priyanath
         </h1>
 
-        {/* Navigation Links */}
+        {/* Navigation*/}
         <div className="flex gap-6 items-center text-sm">
           {navLinks.map((link) => (
             <Link
@@ -46,7 +46,6 @@ export default function Navbar() {
               }}
             >
               {link.name}
-              {/* Underline for active link */}
               <span
                 className={`absolute left-0 -bottom-1 w-full h-[2px] bg-[var(--accent)] transition-all duration-200`}
                 style={{
@@ -59,7 +58,7 @@ export default function Navbar() {
             </Link>
           ))}
 
-          {/* Theme Toggle */}
+          {/*Toggle */}
           <ThemeToggle />
         </div>
       </div>

@@ -19,7 +19,7 @@ export default function Contact() {
     <section className="max-w-xl mx-auto px-8 py-20 space-y-10">
       <h2 className="text-3xl font-bold text-[var(--accent)] mb-6">Contact</h2>
 
-      {/* Contact Form */}
+      {/* Form */}
       <form className="flex flex-col gap-4">
         <input
           required
@@ -54,7 +54,7 @@ export default function Contact() {
         </button>
       </form>
 
-      {/* Interactive Contact Links */}
+      {/* Contact Links */}
       <div className="flex flex-wrap gap-6 mt-10 justify-center">
         {contactLinks.map((contact, idx) => (
           <a
