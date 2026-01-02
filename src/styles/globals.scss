@@ -1,0 +1,74 @@
+/* =========================
+   DESIGN SYSTEM VARIABLES
+========================= */
+:root {
+  --bg-start: #0f0c29;
+  --bg-mid: #302b63;
+  --bg-end: #24243e;
+
+  --accent: #2d8b4b;
+  --text-main: #ebf0ee;
+}
+
+/* LIGHT MODE (optional) */
+html:not(.dark) {
+  --bg-start: #f8fcf8;
+  --bg-mid: #e5e7eb;
+  --bg-end: #c7d2fe;
+
+  --text-main: #111827;
+  --text-sec: #66686c;
+}
+
+/* =========================
+   GLOBAL STYLES
+========================= */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: system-ui, sans-serif;
+  color: var(--text-main);
+
+  background: radial-gradient(
+    circle at top,
+    var(--bg-mid),
+    var(--bg-start),
+    var(--bg-end)
+  );
+
+  overflow-x: hidden;
+}
+
+/* =========================
+   STAR BACKGROUND EFFECT
+========================= */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image:
+    radial-gradient(1px 1px at 20% 30%, white, transparent),
+    radial-gradient(1px 1px at 80% 40%, white, transparent),
+    radial-gradient(1px 1px at 50% 80%, white, transparent),
+    radial-gradient(1px 1px at 10% 90%, white, transparent);
+  opacity: 0.25;
+}
+
+/* =========================
+   SEMANTIC ELEMENTS
+========================= */
+section {
+  padding: clamp(3rem, 6vw, 6rem) clamp(1.5rem, 4vw, 3rem);
+}
+
+button {
+  cursor: pointer;
+  border-radius: 0.75rem;
+}

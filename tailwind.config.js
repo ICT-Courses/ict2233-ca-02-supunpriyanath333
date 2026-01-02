@@ -1,19 +1,12 @@
-module.exports = {
-  content: ["./index.html", "./src/**/*.{js,jsx}"],
+export default {
   darkMode: "class",
+  content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
     extend: {
       colors: {
-        brand: {
-          50: "#f6fbff",
-          500: "#0f6fff",
-          700: "#0b4fd6"
-        }
+        accent: "#a855f7",
       },
-      fontFamily: {
-        sans: ["Inter", "ui-sans-serif", "system-ui"]
-      }
-    }
+    },
   },
-  plugins: [require("@tailwindcss/forms")]
+  plugins: [],
 };
